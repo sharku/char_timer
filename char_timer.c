@@ -8,7 +8,7 @@
 
 #define DEVICE_NAME "char_timer"
 
-MODULE_AUTHOR("Benden Ziyade");
+MODULE_AUTHOR("padawan");
 
 static int device_open(struct inode *inode, struct file *file);
 static int device_release(struct inode *inode, struct file *file);
